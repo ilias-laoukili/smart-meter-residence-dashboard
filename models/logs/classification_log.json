@@ -1,0 +1,34 @@
+{
+  "model": "Gradient Boosting",
+  "trained_at": "2026-04-30T10:17:05.155094+00:00",
+  "sklearn_version": "1.8.0",
+  "accuracy": 0.93,
+  "f1": 0.6956521739130435,
+  "precision": 0.8888888888888888,
+  "recall": 0.5714285714285714,
+  "roc_auc": 0.8563122923588041,
+  "cv_roc_auc_mean": 0.9222907953879226,
+  "cv_roc_auc_std": 0.01684151172364706,
+  "confusion_matrix": [
+    [
+      85,
+      1
+    ],
+    [
+      6,
+      8
+    ]
+  ],
+  "top_features": [
+    "max_consecutive_zero_days",
+    "monthly_entropy",
+    "winter_mean",
+    "winter_summer_ratio",
+    "mean_afternoon",
+    "std_consumption",
+    "max_consumption",
+    "summer_mean",
+    "weekday_mean",
+    "median_consumption"
+  ]
+}

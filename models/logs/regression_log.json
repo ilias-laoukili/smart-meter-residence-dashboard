@@ -1,0 +1,19 @@
+{
+  "trained_at": "2026-04-30T10:17:05.561652+00:00",
+  "sklearn_version": "1.8.0",
+  "mae": 0.006215553577501336,
+  "rmse": 0.017114911446335562,
+  "r2": 0.899827238138459,
+  "top_features": [
+    "zero_days_ratio",
+    "max_consecutive_zero_days",
+    "monthly_entropy",
+    "winter_mean",
+    "summer_mean",
+    "winter_summer_ratio",
+    "winter_zero_ratio",
+    "max_consumption",
+    "active_weeks_ratio",
+    "mean_evening"
+  ]
+}
